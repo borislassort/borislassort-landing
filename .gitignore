@@ -1,0 +1,21 @@
+# Hugo 
+/public
+/resources
+/themes
+
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
+
+# VisualStudioCode
+.vscode/*
+*.code-workspace
+
+# Ignore all local history of files
+.history

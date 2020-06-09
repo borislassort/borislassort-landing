@@ -1,0 +1,60 @@
+baseurl = "https://boris.lassort.fr"
+title = "Boris Lassort"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+    author = "Boris Lassort"
+    info = "French System Administrator in love with automation"
+    description = "Boris Lassort's personal website"
+    keywords = "blog,adminsys,personal"
+    avatarurl = "img/avatar.jpg"
+    favicon_32 = "img/favicon-32x32.png"
+    favicon_16 = "img/favicon-16x16.png"
+
+    footercontent = "Lyon, France."
+
+    hidecredits = true
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+    colorscheme = "auto"
+
+# Social links
+[[params.social]]
+    name = "Linkedin"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 3
+    url = "https://www.linkedin.com/in/borislassort/"
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/borislassort/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/borislassort/"
+
+
+# Menu links
+[[menu.main]]
+    name = "Contact"
+    weight = 1
+    url  = "/contact/"
+#[[menu.main]]
+#    name = "About"
+#    weight = 2
+#    url = "/about/"
