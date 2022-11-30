@@ -32,12 +32,12 @@ pygmentscodefencesguesssyntax = true
     colorscheme = "auto"
 
 # Social links
-[[params‧social]]
+[[params.social]]
     name = "Linkedin"
     icon = "fab fa-linkedin fa-2x"
     weight = 3
     url = "https://www.linkedin.com/in/borislassort/"
-[[params‧social]]
+[[params.social]]
     name = "Github"
     icon = "fab fa-github fa-2x"
     weight = 1
@@ -50,7 +50,7 @@ pygmentscodefencesguesssyntax = true
 
 
 # Menu links
-[[menu‧main]]
+[[menu.main]]
     name = "Contact"
     weight = 1
     url  = "/contact/"
